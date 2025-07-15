@@ -1,0 +1,19 @@
+{
+  "name": "software-engineer-fe-challenge",
+  "version": "1.0.0",
+  "description": "Este proyecto es un desafío para candidatos a Software Engineer Frontend.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ProjectCORTeam/Software-Engineer-FE-Challenge.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ProjectCORTeam/Software-Engineer-FE-Challenge/issues"
+  },
+  "homepage": "https://github.com/ProjectCORTeam/Software-Engineer-FE-Challenge#readme"
+}

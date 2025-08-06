@@ -33,11 +33,11 @@ La tarea es construir una aplicación de gestión de tareas simple pero de alto 
 
 1. Clona este repositorio:
    ```bash
-   git clone https://github.com/tu-usuario/Software-Engineer-FE-Challenge.git
+   git clone https://github.com/Lucasbelich/cor-challenge.git
    ```
 2. Entra al directorio del proyecto:
    ```bash
-   cd Software-Engineer-FE-Challenge
+   cd software-engineer-fe-challenge
    ```
 3. Instala las dependencias:
    ```bash
@@ -49,12 +49,12 @@ La tarea es construir una aplicación de gestión de tareas simple pero de alto 
 Puedes iniciar la aplicación en modo desarrollo (cuando esté implementada) con:
 
 ```bash
-npm start
+npm run dev
 ```
 
 ## Estructura del Proyecto
 
-- `src/lib/api/mockApi.js` - Mock API para simular las operaciones de backend sobre tareas.
+- `src/api/mockApi.js` - Mock API para simular las operaciones de backend sobre tareas.
 - `package.json` - Dependencias y scripts del proyecto.
 - `README.md` - Este archivo.
 

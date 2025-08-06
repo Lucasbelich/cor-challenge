@@ -1,0 +1,86 @@
+.list-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 24px;
+  min-height: 100vh;
+}
+
+.error-message {
+  background: #fff3cd;
+  width: 100%;
+  color: #333;
+  padding: 12px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.close-error {
+  background: none;
+  border: none;
+  font-size: 10px;
+  cursor: pointer;
+  color: #856404;
+  padding: 8px;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+}
+
+.close-error:hover {
+  color: #533f03;
+}
+
+.tasks-container {
+  padding: 24px;
+}
+
+.tasks-container-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.error-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 24px;
+}
+
+.error-content {
+  background: white;
+  padding: 24px;
+  border-radius: 12px;
+  text-align: center;
+  max-width: 400px;
+}
+
+.error-content h2 {
+  color: red;
+}
+
+.error-content p {
+  color: #666;
+}
+
+.retry-button {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.retry-button:hover {
+  background: #0056b3;
+}

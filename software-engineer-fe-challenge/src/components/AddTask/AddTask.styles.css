@@ -1,0 +1,54 @@
+.add-task-container {
+  padding: 24px;
+}
+
+.add-task-form {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.add-task-input {
+  flex: 1;
+  padding: 12px;
+  border: 2px solid #e1e5e9;
+  background-color: transparent;
+  border-radius: 8px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.add-task-button {
+  padding: 12px 24px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.add-task-button:hover:not(:disabled) {
+  background: #0056b3;
+}
+
+.add-task-button:disabled {
+  background: #6c757d;
+  cursor: not-allowed;
+}
+
+@media (max-width: 768px) {
+  .add-task-form {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .add-task-input {
+    width: 100%;
+  }
+
+  .add-task-button {
+    width: 100%;
+  }
+}
